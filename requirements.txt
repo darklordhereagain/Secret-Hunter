@@ -1,0 +1,8 @@
+cython==3.0.11
+requests==2.32.3
+colorama==0.4.6
+urllib3==2.5.0
+pywin32==311
+cryptography==45.0.5
+cffi==1.17.1
+pycparser==2.22
