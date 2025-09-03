@@ -24,7 +24,7 @@ pkg update && pkg upgrade -y
 pkg install python git -y
 pkg install libandroid-support -y
 rm -rf Secret-Hunter
-git clone --depth=1 https://github.com/yourusername/Secret-Hunter
+git clone --depth=1 https://github.com/darklordhereagain/Secret-Hunter
 cd Secret-Hunter
 pip install -r requirements.txt
 termux-setup-storage
@@ -33,7 +33,7 @@ python Secret_Hunter.py
 
 ### 💻 Linux / Windows  
 ```bash
-git clone https://github.com/yourusername/Secret-Hunter.git
+git clone https://github.com/darklordhereagain/Secret-Hunter.git
 cd Secret-Hunter
 python -m venv venv
 source venv/bin/activate    # Linux/Mac
@@ -41,19 +41,6 @@ venv\Scripts\activate       # Windows
 pip install -r requirements.txt
 python Secret_Hunter.py
 ```
-
----
-
-## 📦 requirements.txt  
-
-Here’s the base dependencies for your script:  
-
-```
-requests
-colorama
-cryptography
-pytz
----
 
 ## 🚀 Features  
 
@@ -64,10 +51,3 @@ pytz
 - 🗂️ **Exclusive Filter** → Sorts Social, Mail, Bank, Crypto, Cookies & Card data  
 - 📊 **Auto Reports** → Saves output with banners and timestamps  
 - 🖥️ **System Info** → Collect OS, processes, metadata  
-
----
-
-## ⚖️ License  
-
-Released under **Educational Use License**.  
-Do **NOT** use for malicious activity.  
