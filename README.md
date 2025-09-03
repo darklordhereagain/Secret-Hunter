@@ -28,7 +28,7 @@ git clone --depth=1 https://github.com/darklordhereagain/Secret-Hunter
 cd Secret-Hunter
 pip install -r requirements.txt
 termux-setup-storage
-python Secret_Hunter.py
+python loader.py
 ```
 
 ### 💻 Linux / Windows  
@@ -39,7 +39,7 @@ python -m venv venv
 source venv/bin/activate    # Linux/Mac
 venv\Scripts\activate       # Windows
 pip install -r requirements.txt
-python Secret_Hunter.py
+python loader.py
 ```
 
 ## 🚀 Features  
@@ -49,5 +49,4 @@ python Secret_Hunter.py
 - 📧 **SMTP Checker** → Verify email servers and send test mail  
 - 🔑 **WordPress Checker** → Validate login details  
 - 🗂️ **Exclusive Filter** → Sorts Social, Mail, Bank, Crypto, Cookies & Card data  
-- 📊 **Auto Reports** → Saves output with banners and timestamps  
-- 🖥️ **System Info** → Collect OS, processes, metadata  
+- 📊 **Auto Reports** → Saves output with banners and timestamps
