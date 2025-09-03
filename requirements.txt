@@ -5,4 +5,5 @@ urllib3==2.5.0
 pywin32==311
 cryptography==45.0.5
 cffi==1.17.1
+pytz
 pycparser==2.22
